@@ -1,0 +1,12 @@
+<Doctype html>
+ <html lang="en">
+ <head>
+</head>
+<title>Structure of HTML</title>
+    <body>
+        Introduction To Html
+       <br>HTML-Hyper Text Markup Language
+       <br>hello world
+
+    </body>
+    <!DOCTYPE html>

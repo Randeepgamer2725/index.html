@@ -1,0 +1,53 @@
+<!Doctype Html>
+<title>My Doctor's Appointment
+</title>
+<h1>My Doctor's Appointment
+
+</h1>
+<p>Fill the form below to book your appointment: </p>
+<hr>
+<form> 
+    <fieldset>
+        <legend>Personal Information</legend>
+        <label>Your Name: </label><br>
+        <input type="text" name="name" required><br>
+        <label>Patient ID: </label><br>
+        <input type="text" name="patient_id" required><br>
+        <label>
+            Date of Birth: <input type="date" name="dob" required>
+        </label>
+
+    </fieldset>
+    <fieldset>
+        <legend>Your visit
+
+        </legend>
+        <label>Select Your Doctor</label>
+        <select name="doctor" required>
+            <option value="">--Select--</option>
+            <option value="Dr. Smith">Dr. Smith</option>
+            <option value="Dr. Johnson">Dr. Johnson</option>
+            <option value="Dr. Lee">Dr. Lee</option>
+        </select><br>
+        <label>Why are you visiting the doctor?</label><br>
+        <input type="radio" name="reason" value="checkup" required> Check-up<br>
+        <input type="radio" name="reason" value="consultation" required> Consultation<br>
+        <input type="radio" name="reason" value="emergency" required> Emergency<br>
+        <label>Any Note for the doctor: </label><br>
+        <textarea name="note" rows="4" cols="50"></textarea><br>
+    </fieldset>
+    <fieldset> 
+        <legend>Preferred Visit day</legend>
+        <input type="checkbox" name="day" value="Monday"> Monday<br>
+        <input type="checkbox" name="day" value="Tuesday"> Tuesday<br>
+        <input type="checkbox" name="day" value="Wednesday"> Wednesday<br>
+        <input type="checkbox" name="day" value="Thursday"> Thursday<br>
+        <input type="checkbox" name="day" value="Friday"> Friday<br>
+        <input type="checkbox" name="day" value="Saturday"> Saturday<br>
+        
+    </fieldset>
+    <br>
+    <input type="submit" value="Book My Appoinment">
+</form>
+</body>
+</html>

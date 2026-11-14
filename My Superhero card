@@ -1,0 +1,72 @@
+<doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Superhero Card</title>
+    <style>
+
+        body {
+            background-color: darkblue;
+            font-family: Arial, sans-serif;
+            color: white;
+           
+            
+        }
+        .hero {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+            color: yellow;
+        }
+        .tagline {
+            font-size: 24px;
+            font-weight: bold;
+            font-family: 'Comic Sans MS', cursive;
+            font-style: italic;
+
+
+
+        }
+        .power {
+            font-size: 16px;
+            font-family: 'Arial', sans-serif;
+            font-style: normal;
+            color: darkseagreen;
+        }
+        .weakness {
+            font-size: 16px;
+            font-family: 'Arial', sans-serif;
+            font-style: normal;
+            color: red
+
+        }
+        .badge{
+            font-size: 20px;
+            text-align: center;
+            margin: 10px 0;
+            transform: rotate(10deg);
+
+
+        }
+        .made-by {
+            font-size: 14px;
+            text-align: center;
+            margin-top: 20px;
+            color: cyan
+        }
+
+
+
+    </style>
+</head>
+<body>
+<h1 class="hero">⚡Thunder Kid</h1>
+<p class="tagline">Lightning Fast and Electrifying!</p>
+<p class="power">Power: Electric Shockwave</p>
+<p class="weakness">Weakness: Water-based Attacks</p>
+<div class="badge">Hero Badge</div>
+<p class="made-by">Created by: Randeep </p>
+</body>
+</html>
